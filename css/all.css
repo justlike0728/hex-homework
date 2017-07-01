@@ -103,12 +103,9 @@ table {
 	clear: both;
 }
 
-
-
 .topmenu ul {
 	float: right;
 	padding-top: 20px;
-
 }
 
 .topmenu ul li {
@@ -128,11 +125,11 @@ table {
 
 .banner {
 	position: relative;
+	height: 346px;
 }
 
 .banner .bannerimg {
 	position: absolute;
-	z-index: 8;
 }
 
 .banner .bannercolor {
@@ -141,7 +138,6 @@ table {
 	width: 1002px;
 	height: 120px;
 	top: 110px;
-	z-index: 9;
 	opacity: 0.1;
 }
 
@@ -151,6 +147,69 @@ table {
 	top: 135px;
 	color: #fff;
 	font-size: 36px;
-	z-index: 10;
 }
+
+.product {
+	
+}
+
+.product ul {
+	float: left;
+	margin-top: 40px;
+}
+
+.product ul li {
+	float: left;
+	width: 300px;
+	/* border: 1px dotted #000; */
+	box-shadow: 0px 5px 5px gray;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.product li img {
+	padding: 30px;
+}
+
+.product h2 {
+	font-weight: bold;
+	font-family: Arial;
+	padding-bottom: 5px;
+
+}
+
+.product p {
+	text-align: left;
+	font-family: Arial;
+	line-height: 1.5;
+	font-size: 17px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 6px;
+
+}
+
+.product .rwd img {
+	margin-bottom: 55px;
+}
+
+.product .rwd p span {
+	
+}
+
+.product .jquery img  {
+	margin-bottom: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
