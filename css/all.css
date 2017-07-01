@@ -138,18 +138,18 @@ table {
 .banner .bac {
 	position: absolute;
 	background: #d9d9d9;
-	width: 1000px;
-	height: 100px;
-	left: 0;
-	top: 135px;
+	width: 1002px;
+	height: 120px;
+	top: 110px;
 	z-index: 9;
+	opacity: 0.1;
 }
 
 .banner .bannerfont {
 	position: absolute;
 	left: 10px;
 	top: 135px;
-	color: #000;
+	color: #fff;
 	font-size: 36px;
 	z-index: 10;
 }
