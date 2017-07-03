@@ -202,6 +202,7 @@ table {
 
 .price {
 	margin-left: 50px;
+	margin-bottom: 100px;
 }
 
 .price .font {
@@ -227,6 +228,7 @@ table {
 .price td {
 	padding: 15px;
 	padding-right: 100px;
+	text-align: left;
 }
 
 .price .green {
@@ -234,7 +236,22 @@ table {
 	color: green;
 }
 
+.csmessage {
+	/*background-image: url('../img/bgcolor.png');*/
 
+}
 
+.csmessage h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
 
+.csmessage .message {
+	width: 500px;
+	height: 250px;
+}
 
+.csmessage label {
+
+}
