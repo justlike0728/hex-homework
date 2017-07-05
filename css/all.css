@@ -245,12 +245,15 @@ table {
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
+	margin-bottom: 15px;
 }
 
 .csmessage .message {
 	width: 500px;
 	height: 250px;
 }
+
+.csmessage .tel, 
 
 .csmessage label {
 
