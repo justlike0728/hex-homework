@@ -42,11 +42,20 @@ table {
 	border-spacing: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 
 .wrap {
 	width: 1000px;
 	margin: 0 auto;
 }
+
+
+
+
+/*01 TOPBAR*/
 
 .bar {
 	height: 30px;
@@ -83,6 +92,14 @@ table {
 .twitter a {
 	color: #62c8f0;
 }
+
+/*End 01 TOPBAR*/
+
+
+
+
+
+/*02 header*/
 
 .logo h1 {
 	float: left;
@@ -149,9 +166,13 @@ table {
 	font-size: 36px;
 }
 
-.product {
-	
-}
+/*End 02 header*/
+
+
+
+
+
+/*03 Product*/
 
 .product ul {
 	float: left;
@@ -200,6 +221,15 @@ table {
 	margin-bottom: 18px;
 }
 
+/*End 03 Product*/
+
+
+
+
+
+
+/*04 Class*/
+
 .price {
 	margin-left: 50px;
 	margin-bottom: 100px;
@@ -223,6 +253,7 @@ table {
 	background: #D3D3D3;
 	color: #000;
 	text-align: left;
+	font-weight: bold;
 }
 
 .price td {
@@ -236,25 +267,107 @@ table {
 	color: green;
 }
 
-.csmessage {
-	/* background-image: url('../img/bgcolor.png'); */
+/*End 04 Class*/
 
+
+
+
+
+/*05 form*/
+
+.csmessage {
+	background-image: url('../img/bgcolor.png');
+	height: 400px;
 }
 
 .csmessage h2 {
 	text-align: center;
-	font-size: 30px;
+	color: #fff;
 	font-weight: bold;
-	margin-bottom: 15px;
+	font-size: 30px;
+	padding: 30px 0;
+	line-height: 1.5;
 }
 
 .csmessage .message {
-	width: 500px;
-	height: 250px;
+	width: 460px;
+	margin: 0 20px;
+	float: left;
+	height: 220px;
+	border-radius: 3px;
 }
 
-.csmessage .tel, 
-
-.csmessage label {
-
+.csmessage .list .item1 {
+	vertical-align: top;
 }
+
+.csmessage .list .item1 p {
+	color: #fff;
+	padding-bottom: 5px;
+}
+
+.csmessage .list .item1 input {
+	padding-right: 300px;
+	padding-bottom: 8px;
+	border-radius: 3px;
+}
+
+.csmessage .list .item2, .item3, .item4 {
+	font-family: Arial;
+	font-weight: bold;
+	display: block;
+	padding-top: 10px;
+}
+
+.csmessage .list .submit .send{
+	background-color: #00cc99;
+	border: none;
+	border-radius: 5px;
+	float: right;
+	margin: 20px 25px 0 30px;
+	padding: 10px 20px;
+	color: #fff;
+}
+
+/*End 05 form*/
+
+
+
+
+
+/*06 footer*/
+
+.footer {
+	padding: 30px 20px;
+	margin-bottom: 50px;
+}
+
+.ftlogo h1 {
+	float: left;
+	padding: 10px;
+}
+
+.ftlogo h1 a {
+	background-image: url('../img/footerlogo.png');
+	width: 171px;
+	height: 36px;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	display: block;
+}
+
+.ftright {
+	float: right;
+}
+
+.ftright li {
+	padding-bottom: 10px;
+	font-family: Arial;
+}
+
+.ftright li a {
+	color: #e12d80;
+}
+
+/*End 06 footer*/
