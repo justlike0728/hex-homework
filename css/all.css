@@ -65,6 +65,10 @@ a {
 	text-decoration: none;
 }
 
+body {
+	font-family: Arial;
+}
+
 /* End 自行設定區域 */
 
 
@@ -85,10 +89,6 @@ a {
 .bar ul li {
 	float: left;
 	margin: 5px;
-}
-
-.bar li a {
-	text-decoration: none;
 }
 
 .bar li img {
@@ -313,7 +313,7 @@ a {
 }
 
 .csmessage .list .item1 input {
-	padding-right: 338px;
+	width: 460px;
 	padding-bottom: 8px;
 	border-radius: 3px;
 }
@@ -333,6 +333,10 @@ a {
 	margin: 20px 25px 0 30px;
 	padding: 10px 20px;
 	color: #fff;
+}
+
+.csmessage .submit .send:hover {
+	background-color: #00f;
 }
 
 /*End 05 form*/
@@ -369,11 +373,14 @@ a {
 
 .ftright li {
 	padding-bottom: 10px;
-	font-family: Arial;
 }
 
 .ftright li a {
 	color: #e12d80;
+}
+
+.ftright li a:hover {
+	color: #ccc;
 }
 
 /*End 06 footer*/
