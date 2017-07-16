@@ -144,26 +144,24 @@ a {
 	position: relative;
 	height: 346px;
 }
-
-.banner .bannerimg {
-	position: absolute;
-}
-
-.banner .bannercolor {
-	position: absolute;
-	background: #d9d9d9;
-	width: 1002px;
-	height: 120px;
-	top: 110px;
-	opacity: 0.1;
-}
-
+ 
 .banner .bannerfont {
 	position: absolute;
 	left: 10px;
 	top: 135px;
 	color: #fff;
 	font-size: 36px;
+}
+
+.banner .bannerfont:before {
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: -10px;
+	width: 1002px;
+	height: 120px;
+	background-color: #9d9d9d;
+	opacity: 0.1;
 }
 
 /*End 02 header*/
