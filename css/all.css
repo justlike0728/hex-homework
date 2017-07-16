@@ -47,10 +47,26 @@ a {
 }
 
 
+
+
+
+
+/* 自行設定區域 */
 .wrap {
 	width: 1000px;
-	margin: 0 auto;
+	margin: auto;
 }
+
+.clearfix {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* End 自行設定區域 */
+
 
 
 
@@ -116,10 +132,6 @@ a {
 	display: block;
 }
 
-.clearfix {
-	clear: both;
-}
-
 .topmenu ul {
 	float: right;
 	padding-top: 20px;
@@ -131,7 +143,6 @@ a {
 }
 
 .topmenu li a {
-	text-decoration: none;
 	color: #51CECA;
 }
 
@@ -229,11 +240,10 @@ a {
 /*04 Class*/
 
 .price {
-	margin-left: 50px;
-	margin-bottom: 100px;
+	margin: 0 0 100px 50px;
 }
 
-.price .font {
+.price .prictitle {
 	text-align: center;
 	font-weight: bold;
 	font-size: 30px;
@@ -246,8 +256,7 @@ a {
 }
 
 .price th {
-	padding: 10px;
-	padding-right: 120px;
+	padding: 10px 120px 10px 10px;
 	background: #D3D3D3;
 	color: #000;
 	text-align: left;
@@ -255,8 +264,7 @@ a {
 }
 
 .price td {
-	padding: 15px;
-	padding-right: 100px;
+	padding: 15px 100px 15px 15px;
 	text-align: left;
 }
 
